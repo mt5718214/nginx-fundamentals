@@ -1,3 +1,9 @@
+## Setup nginx with docker
+```bash
+docker run -itd --name nginx -p 80:8080 nginx:latest
+docker ps -a --filter name=nginx # confirm whether nginx is running
+```
+
 ## Copy the file form the container
 ```bash
 docker cp [OPTIONS] CONTAINER:SRC_PATH DEST_PATH
