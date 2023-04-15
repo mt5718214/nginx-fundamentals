@@ -17,3 +17,4 @@ cmd + shift + R
 ## Css file don't work because content-type is wrong. it should be text/css.
 ![](./img/1.png)
 ## to solve that you need to add types or include mime.types.
+![](./img/2.png)
