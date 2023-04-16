@@ -1,3 +1,10 @@
+## Start reading order
+- server_static_content
+- mime_type
+- location_context
+- redirect_and_rewrite
+- load_balancer
+
 ## Setup nginx with docker
 ```bash
 docker run -itd --name nginx -p 80:8080 nginx:latest
