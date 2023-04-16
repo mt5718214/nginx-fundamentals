@@ -15,7 +15,11 @@ docker build . -t myserver
 
 ## start or stop all app
 ```bash
+# start
 docker-compose up -d
+
+# stop
+docker network disconnect server_default nginx
 docker-compose down
 ```
 
