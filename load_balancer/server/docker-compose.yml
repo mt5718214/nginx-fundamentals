@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  app:
+    image: myserver
+    container_name: app
+    ports:
+      - 1111:7777
+
+  app2:
+    image: myserver
+    container_name: app2
+    ports:
+      - 2222:7777
+
+  app3:
+    image: myserver
+    container_name: app3
+    ports:
+      - 3333:7777
+
