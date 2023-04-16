@@ -32,3 +32,11 @@ upstream backendserver {
 }
 ```
 
+## check which machine is routed to
+```t
+# add this two line to location block
+add_header X-Route-Ip $upstream_addr;
+add_header X-Route-Status $upstream_status;
+```
+## open devtool and go to http://localhost:8080
+![](./img/1.png)
